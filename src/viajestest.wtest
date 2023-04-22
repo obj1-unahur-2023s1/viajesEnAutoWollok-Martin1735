@@ -1,0 +1,56 @@
+import objects.*
+import remiseras.*
+import oficinas.*
+
+/*test "testX" {
+	assert.that(roxana.precioDeViaje(anaMaria ,10)==300)
+	assert.that(gabriela.precioDeViaje(anaMaria ,10)==360)
+	assert.that(mariela.precioDeViaje(anaMaria ,10)==300)
+	assert.that(roxana.precioDeViaje(anaMaria,2)==60)
+	assert.that(roxana.precioDeViaje(teresa,10)== 220)
+	assert.that(gabriela.precioDeViaje(ludmila,10)==216)
+	assert.that(gabriela.precioDeViaje(teresa,10)==264)
+	assert.that(mariela.precioDeViaje(ludmila,10)==180)
+	assert.that(mariela.precioDeViaje(teresa,10)==220)
+	assert.that(mariela.precioDeViaje(teresa,2)==50)
+	assert.that(mariela.precioDeViaje(ludmila,2)==50)
+	assert.that(juana.precioDeViaje(ludmila,9)==200)
+	assert.that(juana.precioDeViaje(ludmila,2)==100)
+	assert.that(juana.precioDeViaje(teresa,2)==100)
+	assert.that(juana.precioDeViaje(teresa,9)==200)
+}
+
+test "lucia" {
+	lucia.reemplazoDe(gabriela)
+	assert.that(lucia.precioDeViaje(teresa,10)== 264)
+	assert.that(lucia.precioDeViaje(ludmila,10)==216)
+	lucia.reemplazoDe(roxana)
+	assert.that(lucia.precioDeViaje(teresa,10)== 220 )
+	assert.that(lucia.precioDeViaje(ludmila,2)== 36)
+	lucia.reemplazoDe(mariela)
+	assert.that(lucia.precioDeViaje(teresa,10)== 220)
+	assert.that(lucia.precioDeViaje(ludmila,10)== 180)
+	assert.that(lucia.precioDeViaje(ludmila,3)== 54)
+	lucia.reemplazoDe(juana)
+	assert.that(lucia.precioDeViaje(teresa,9)== 200 )
+	assert.that(lucia.precioDeViaje(ludmila,2)==100)
+}
+
+test "cadete" {
+	melina.clientaDe(ludmila)
+	assert.that(mariela.precioDeViaje(melina,10)==150)
+	
+}
+
+test "oficinas" {
+	oficina.asignarRemiseras(roxana, juana) 
+	oficina.intercambiarRemiseras()
+	assert.that(oficina.primeraOpcion() == juana)
+	assert.that(oficina.segundaOpcion() == roxana)
+}*/
+
+test "remisras" {
+	oficina.asignarRemiseras(juana,roxana)
+	assert.that( oficina.remiseraElegidaParaViaje(ludmila,200) == )
+}
+
