@@ -51,6 +51,8 @@ test "oficinas" {
 
 test "remisras" {
 	oficina.asignarRemiseras(juana,roxana)
-	assert.that( oficina.remiseraElegidaParaViaje(ludmila,200) == )
+	oficina.intercambiarRemiseras()
+	assert.that(oficina.segundaOpcion() == juana)
+	assert.that(oficina.primeraOpcion() == roxana)
 }
 
